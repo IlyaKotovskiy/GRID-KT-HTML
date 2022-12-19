@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    letter-spacing: 4px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.header-wrap {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    padding: 15px 0;
+}
+
+
+/* NUMBERS */
+
+.numbers {
+    padding: 100px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+.numbers-wrap {
+    max-width: max-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 100px;
+}
+
+.numbers-item {
+    position: relative;
+}
+
+.numbers-num {
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -70px;
+    top: 35px;
+}
+
+.numbers-text {
+    color: #666;
+}
+
+
+/* IMAGES */
+
+.images {
+    padding: 100px 0;
+}
+
+.images-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.images-korobka-item {
+    width: 300px;
+    height: 500px;
+    background-color: #999;
+}
+
+.images-wrap-item {
+    width: 450px;
+    height: 650px;
+    background-color: #999;
+}
+
+.images-korobka {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
